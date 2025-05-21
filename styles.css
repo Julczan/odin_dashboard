@@ -153,3 +153,25 @@ button {
   border-radius: 25px;
   border: none;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 1;
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.text {
+  color: hsl(0, 0%, 43%);
+}
+
+.card {
+  background-color: white;
+}
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100px 1fr;
+}
