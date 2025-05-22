@@ -89,7 +89,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: rgb(194, 194, 194);
   display: grid;
   height: 100vh;
   width: 100vw;
@@ -113,13 +113,10 @@ body {
   align-items: center;
   justify-items: center;
   font-weight: bold;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 .profile-name {
   font-size: 1.5rem;
-}
-
-.main-content {
-  background-color: rgb(194, 194, 194);
 }
 
 .logo {
@@ -165,10 +162,18 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
 }
+.heading-2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 .text {
   color: hsl(0, 0%, 43%);
 }
 
+.card,
+.right-side {
+  margin-bottom: 30px;
+}
 .card,
 .annoucements,
 .trending {
@@ -176,7 +181,10 @@ button {
   padding: 30px;
   border-radius: 15px;
   margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
+
 .main-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -194,8 +202,10 @@ span[class="heading"] {
 }
 
 .trending {
-  grid-row: 1;
+  grid-row: 3;
+  display: grid;
 }
 .annoucements {
-  grid-row: 3;
+  grid-row: 1;
+  display: grid;
 }
