@@ -127,6 +127,13 @@ body {
   font-size: 2rem;
   padding: 30px;
 }
+.logo > img {
+  width: 40px;
+  display: inline-block;
+  align-self: center;
+  vertical-align: middle;
+  margin-right: 20px;
+}
 
 .sidebar ul {
   color: white;
